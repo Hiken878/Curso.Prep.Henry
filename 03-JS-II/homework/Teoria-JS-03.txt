@@ -1,0 +1,33 @@
+HOMEWORK JAVASCRIPT 03
+conceptos
+
+FOR
+el codigo "FOR" es una expresion de bucle incorporada, que se ejecuta de manera condicional en la variable para que corra de manera ciclica  cada que esta resulte ser "true" y se detenga hasta que resulte "false".
+estos operadores deben de ser escritos de manera logica para que puedan tener un fin, de lo contrario terminaran siendo infinitos.
+
+ejemplo: for (let i = 0                 ; i < 10                 ; i++          ) {
+// | Declaramos una variable | Expresión condcicional | Incrementamos la variable |
+    console.log(i); }
+i es igual a la expresion de la variable, iniciando con el numero 0, la expresion condicional es la que determina hasta donde tiene que llegar el ciclo de la funcion, en este caso determina que debe de terminar cuando sea menor a 10; el incremento de la variable es el aumento 1 vez del primer numero declarado al principio de la variable.
+
+OPERADORES LOGICOS
+&& (and)
+es una funcion que como su nombre lo indica sirve para unir o incluir dos variables diferentes dentro de la misma evaluacion. si ambas resultan ser iguales, se obtiene como resultado el valor de "true" de lo contrario sera "false".
+ejemplo: 
+if (100 > 10 && 10 === 10) {
+    console.log('Ambas declaraciones son ciertas, este código se ejecutará');
+}
+si 100 "un numero ingresado por nosotros" es mayor que 10 y 10 es igual a 10, y ambos resultados son ciertos devuelve el valor de "true"
+
+|| (or)
+es una funcion que determina si una variable u otra es cierta. si una de las variables o todas son ciertas, arroja como resutado "true" de lo contrario arrojara como resultado "false"
+
+! (not)
+si el operador logico esta escrito dentro de la variable esta hara la funcion contraria a lo que se deba ejecutar.
+
+ejemplo:
+if (!false) {
+    console.log('El ! devolverá true, porque es lo contrario de false, así que ste código se ejecutará');
+}
+esta funcion se utiiza comunmente para poder acortar sintaxis a la hora de escribir el script, y se trata de una funcion avanzada.
+
