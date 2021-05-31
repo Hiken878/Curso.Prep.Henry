@@ -1,0 +1,23 @@
+HOMEWORK: INTRODUCCION A JAVASCRIPT
+
+VARIABLES
+Una variable en javascript es una forma de guardar un valor ya sea texto o numerico para usarlo mas adelante, con el codigo "var" seguido de la palabra clave y el signo "=" y posteriormente el texto el cual se quiere guardar entre comillas
+ejemplo: var nombre = "Axel"
+
+STRINGS
+Un string es un tipo de dato informatico que se expresa en forma de bloque de texto este debe de estar dentro de comillas, ya sean simples o dobles comillas. 
+
+FUNCIONES (ARGUMENTOS, RETURN)
+Las funciones son objetos convocables sirven para agrupar codigos, que se repiten para completar y arrojar resultados con los datos complementarios añadidos, siendo diferentes cada vez.
+
+el argumento de una funcion se trata de agregarle valores (o contexto) al codigo escrito para que este sea interpretado de manera de acuerdo a las necesidades.
+
+la funcion de "return" duevuelve un valor especifico previamente asignado de todo lo contenido en la funcion logaritmica, devolviendo el resutado especifico.
+
+DECLARACIONES (IF)
+El valor "if" es una condicional que se asigna a la funcion, haciendo una comparativa previamente establecida, la cual devuelve un valor "true" o "false", ejemplo if (edad > 18) [ console.log ("viejo");] else [console.log ("joven");]
+la condicional else se utiliza para devolver un valor cuando la primera condicion no se cumple.
+
+
+VALORES BOOLEANOS (TRUE, FALSE)
+Los valores booleanos son otro tipo de datos informaticos que solo contienen dos valores, "true" ó "false", se usan para asignar y devolver un valor si es verdadero o falso
